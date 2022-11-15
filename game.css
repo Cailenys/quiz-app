@@ -32,3 +32,19 @@
 .incorrect {
     background-color: #dc3543;
 }
+
+/* Head's Up Display (HUD) */
+
+#hub {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hub-prefix{
+    text-align: center;
+    font-size: 2rem;
+}
+
+.hub-main-text{
+    text-align: center;
+}
